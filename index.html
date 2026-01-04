@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Paper collected by Wang</title>
+<title>arXiv Papers of Federated Learning</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style type="text/css">
 
@@ -15,7 +15,7 @@ body {
   line-height: 1.6;
   color: #333;
   background-color: #fff;
-  padding: 20px;
+  padding: 10px 20px 10px 20px;
   max-width: 960px;
   margin: 0 auto;
 }
@@ -41,9 +41,8 @@ span#abs{
 }
 </style>
 </head>
-<body>
-
-</p></br></br><div id='section'>Paperid: <span id='pid'>1, <a href='https://arxiv.org/pdf/2512.24625.pdf' target='_blank'>https://arxiv.org/pdf/2512.24625.pdf</a></span>   <span><a href='https://github.com/RS2002/AutoFed' target='_blank'>  GitHub</a></span></div></span></div><div id = 'author'>Authors:<span id = 'author'>Zijian Zhao, Yitong Shang, Sen Li
+<body><div id='title' style='font-size:1.3em; font-weight:bold;'>arXiv Papers of Federated Learning</div><br>
+<div id='section'>Paperid: <span id='pid'>1, <a href='https://arxiv.org/pdf/2512.24625.pdf' target='_blank'>https://arxiv.org/pdf/2512.24625.pdf</a></span>   <span><a href='https://github.com/RS2002/AutoFed' target='_blank'>  GitHub</a></span></div></span></div><div id = 'author'>Authors:<span id = 'author'>Zijian Zhao, Yitong Shang, Sen Li
 </span></div><div id="title">Title: <a href="https://arxiv.org/html/2512.24625">AutoFed: Manual-Free Federated Traffic Prediction via Personalized Prompt</a></div></span></div><div id = 'abs'>Abstract:</br> <span id = 'abs'>Accurate traffic prediction is essential for Intelligent Transportation Systems, including ride-hailing, urban road planning, and vehicle fleet management. However, due to significant privacy concerns surrounding traffic data, most existing methods rely on local training, resulting in data silos and limited knowledge sharing. Federated Learning (FL) offers an efficient solution through privacy-preserving collaborative training; however, standard FL struggles with the non-independent and identically distributed (non-IID) problem among clients. This challenge has led to the emergence of Personalized Federated Learning (PFL) as a promising paradigm. Nevertheless, current PFL frameworks require further adaptation for traffic prediction tasks, such as specialized graph feature engineering, data processing, and network architecture design. A notable limitation of many prior studies is their reliance on hyper-parameter optimization across datasets-information that is often unavailable in real-world scenarios-thus impeding practical deployment. To address this challenge, we propose AutoFed, a novel PFL framework for traffic prediction that eliminates the need for manual hyper-parameter tuning. Inspired by prompt learning, AutoFed introduces a federated representor that employs a client-aligned adapter to distill local data into a compact, globally shared prompt matrix. This prompt then conditions a personalized predictor, allowing each client to benefit from cross-client knowledge while maintaining local specificity. Extensive experiments on real-world datasets demonstrate that AutoFed consistently achieves superior performance across diverse scenarios. The code of this paper is provided at https://github.com/RS2002/AutoFed .
 <div id='section'>Paperid: <span id='pid'>2, <a href='https://arxiv.org/pdf/2512.22296.pdf' target='_blank'>https://arxiv.org/pdf/2512.22296.pdf</a></span>   <span><a href='https://github.com/RH2004/QMOE' target='_blank'>  GitHub</a></span></div></span></div><div id = 'author'>Authors:<span id = 'author'>Reda Heddad, Lamiae Bouanane
 </span></div><div id="title">Title: <a href="https://arxiv.org/html/2512.22296">Hybrid Quantum-Classical Mixture of Experts: Unlocking Topological Advantage via Interference-Based Routing</a></div></span></div><div id = 'abs'>Abstract:</br> <span id = 'abs'>The Mixture-of-Experts (MoE) architecture has emerged as a powerful paradigm for scaling deep learning models, yet it is fundamentally limited by challenges such as expert imbalance and the computational complexity of classical routing mechanisms. This paper investigates the potential of Quantum Machine Learning (QML) to address these limitations through a novel Hybrid Quantum-Classical Mixture of Experts (QMoE) architecture. Specifically, we conduct an ablation study using a Quantum Gating Network (Router) combined with classical experts to isolate the source of quantum advantage. Our central finding validates the Interference Hypothesis: by leveraging quantum feature maps (Angle Embedding) and wave interference, the Quantum Router acts as a high-dimensional kernel method, enabling the modeling of complex, non-linear decision boundaries with superior parameter efficiency compared to its classical counterparts. Experimental results on non-linearly separable data, such as the Two Moons dataset, demonstrate that the Quantum Router achieves a significant topological advantage, effectively "untangling" data distributions that linear classical routers fail to separate efficiently. Furthermore, we analyze the architecture's robustness against simulated quantum noise, confirming its feasibility for near-term intermediate-scale quantum (NISQ) hardware. We discuss practical applications in federated learning, privacy-preserving machine learning, and adaptive systems that could benefit from this quantum-enhanced routing paradigm.
